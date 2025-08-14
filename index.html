@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muhammad Rijal Eka Farizky — Portfolio</title>
+    <meta
+      name="description"
+      content="Portofolio Web Developer dan Game Developer Profesional"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Raleway:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css?v=1.1" />
+  </head>
+  <body>
+    <header class="nav-header container">
+      <div class="nav-brand">
+        <a href="#" aria-label="Homepage">
+          <svg
+            id="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            viewBox="0 0 84 96"
+          >
+            <title>Logo</title>
+            <g transform="translate(-8.000000, -2.000000)">
+              <g transform="translate(11.000000, 5.000000)">
+                <polygon
+                  id="Shape"
+                  stroke="currentColor"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  points="39 0 0 22 0 67 39 90 78 67 78 22"
+                ></polygon>
+                <text
+                  x="26"
+                  y="60"
+                  font-family="Roboto Mono, monospace"
+                  font-size="45"
+                  fill="currentColor"
+                >
+                  R
+                </text>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">TENTANG</a>
+        <a href="#skills">KEAHLIAN</a>
+        <a href="#portfolio">PORTOFOLIO</a>
+        <a href="#games">GAMES</a>
+        <a href="#contact">KONTAK</a>
+      </nav>
+      <button
+        class="hamburger"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </header>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#about">TENTANG</a>
+      <a href="#skills">KEAHLIAN</a>
+      <a href="#portfolio">PORTOFOLIO</a>
+      <a href="#games">GAMES</a>
+      <a href="#contact">KONTAK</a>
+    </div>
+
+    <main>
+      <section id="about" class="hero">
+        <div class="hero-content fade-in">
+          <p class="hero-intro">Halo, nama saya</p>
+          <h1 id="hero-name">Muhammad Rijal Eka Farizky.</h1>
+          <h2 class="hero-subtitle">
+            Saya membangun aplikasi untuk web dan game.
+          </h2>
+          <p class="hero-desc">
+            Dengan latar belakang di Teknik Informatika, saya memiliki dasar
+            yang kuat dalam prinsip-prinsip inti ilmu komputer. Saya bersemangat
+            untuk menerapkan keterampilan teknis saya dalam lingkungan
+            profesional yang dinamis dan terus belajar hal baru.
+          </p>
+          <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+      </section>
+
+      <section id="skills" class="section container fade-in">
+        <h2><span class="section-num">01.</span> KEAHLIAN</h2>
+        <p
+          style="text-align: center; max-width: 600px; margin: 0 auto 2rem auto"
+        >
+          Berikut adalah beberapa teknologi yang saya kuasai dan sering saya
+          gunakan dalam mengembangkan proyek-proyek saya.
+        </p>
+
+        <div class="skills-container wow fadeInUp" data-wow-delay="0.2s">
+          <div class="skillbar clearfix" data-percent="90%">
+            <div class="skillbar-title" style="background: #dd1e2f">
+              <span>Java</span>
+            </div>
+            <div class="skillbar-bar" style="background: #dd1e2f"></div>
+            <div class="skill-bar-percent">90%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="85%">
+            <div class="skillbar-title" style="background: #ebb035">
+              <span>CSS & SCSS</span>
+            </div>
+            <div class="skillbar-bar" style="background: #ebb035"></div>
+            <div class="skill-bar-percent">85%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="80%">
+            <div class="skillbar-title" style="background: #218559">
+              <span>JavaScript</span>
+            </div>
+            <div class="skillbar-bar" style="background: #218559"></div>
+            <div class="skill-bar-percent">80%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="80%">
+            <div class="skillbar-title" style="background: #6840d4">
+              <span>HTML5</span>
+            </div>
+            <div class="skillbar-bar" style="background: #6840d4"></div>
+            <div class="skill-bar-percent">80%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="75%">
+            <div class="skillbar-title" style="background: #06a2cb">
+              <span>Python</span>
+            </div>
+            <div class="skillbar-bar" style="background: #06a2cb"></div>
+            <div class="skill-bar-percent">75%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="65%">
+            <div class="skillbar-title" style="background: #ab4dd2">
+              <span>PHP</span>
+            </div>
+            <div class="skillbar-bar" style="background: #ab4dd2"></div>
+            <div class="skill-bar-percent">65%</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section container fade-in">
+        <h2><span class="section-num">02.</span> Portofolio Proyek</h2>
+        <div class="portfolio-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <a href="#"><img src="img/obeng.png" alt="Bengkel Online" /></a>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                <a href="#">Obeng (Online Bengkel)</a>
+              </h3>
+              <div class="project-description">
+                <p>
+                  Aplikasi Bengkel Online Berbasis Desktop - Platform
+                  terintegrasi untuk manajemen bengkel dan sparepart dengan
+                  fitur pencarian, pengelolaan data, dan peningkatan visibilitas
+                  bengkel, mendukung peran admin, user, dan pemilik bengkel.
+                </p>
+              </div>
+              <ul class="project-tech-list">
+                <li>Java</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-github"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="External Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-external-link"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <a href="https://github.com/RijalEka/KedaiNongs/"
+                ><img src="img/Kedai.png" alt="Kasir"
+              /></a>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                <a href="#">KedaiNongs (Kasir Desktop)</a>
+              </h3>
+              <div class="project-description">
+                <p>
+                  Kedai Nongs - Aplikasi kasir berbasis Java dan MySQL yang
+                  mempermudah transaksi dan pencatatan keuangan usaha kecil.
+                  Dirancang efisien, akurat, dan ramah pengguna untuk
+                  meminimalkan kesalahan serta meningkatkan produktivitas.
+                </p>
+              </div>
+              <ul class="project-tech-list">
+                <li>Java</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RijalEka/KedaiNongs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-github"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="External Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-external-link"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <a href="#"><img src="img/selis.png" alt="Kasir" /></a>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                <a href="#">Selis Molis Hoki</a>
+              </h3>
+              <div class="project-description">
+                <p>
+                  Selis Molis Hoki - Platform layanan bengkel motor listrik
+                  berbasis Laravel yang memudahkan pengguna memesan perbaikan
+                  atau perawatan, mengakses informasi suku cadang dan aksesoris,
+                  serta berkonsultasi dengan mekanik secara online sebelum ke
+                  bengkel.
+                </p>
+              </div>
+              <ul class="project-tech-list">
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Flutter</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/piezzy/flutter_selismolishoki/tree/frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-github"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="External Link"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-external-link"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="section container fade-in">
+        <h2><span class="section-num">03.</span> Simple Games</h2>
+        <div class="tabs" role="tablist">
+          <button
+            class="tab-btn active"
+            data-target="snake"
+            role="tab"
+            aria-selected="true"
+          >
+            Snake
+          </button>
+          <button class="tab-btn" data-target="flappy" role="tab">
+            Flappy Bird
+          </button>
+          <button class="tab-btn" data-target="tetris" role="tab">
+            Tetris
+          </button>
+        </div>
+        <div class="game-area">
+          <div
+            id="game-snake"
+            class="game-panel active snake-game"
+            data-loaded="true"
+          >
+            <h3 style="color: var(--accent-color)">Snake — Modern</h3>
+            <div class="game-row">
+              <div class="game-canvas-wrap">
+                <div class="grid-wrap">
+                  <div
+                    class="grid"
+                    id="snake-grid"
+                    aria-label="Game grid"
+                  ></div>
+                  <div
+                    id="gameOverOverlay"
+                    role="status"
+                    aria-hidden="true"
+                    style="display: none"
+                  >
+                    <div>Game Over</div>
+                    <div style="font-size: 14px; opacity: 0.9">
+                      Tekan tombol Restart atau Spasi
+                    </div>
+                    <button id="overlayRestartBtn" class="btn">Restart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="game-controls">
+              <p><strong>Skor:</strong> <span id="snake-score">0</span></p>
+              <div class="flex-buttons">
+                <button id="snake-start" class="btn">Mulai / Ulang</button>
+                <button id="snake-pause" class="btn btn-outline">Pause</button>
+              </div>
+              <p class="small-text">
+                Gunakan tombol panah &larr; &uarr; &rarr; &darr; untuk
+                menggerakkan ular.
+              </p>
+            </div>
+          </div>
+
+          <div id="game-flappy" class="game-panel" data-loaded="false">
+            <h3>Flappy Bird — Modern</h3>
+            <div class="game-row">
+              <div class="game-canvas-wrap">
+                <canvas
+                  id="flappy-canvas"
+                  width="700"
+                  height="560"
+                  aria-label="Flappy Bird canvas"
+                ></canvas>
+              </div>
+            </div>
+            <div class="game-controls">
+              <p class="small-text">Klik atau tekan Spasi untuk lompat.</p>
+              <div class="flex-buttons">
+                <button id="flappy-start" class="btn">Start</button>
+                <button id="flappy-pause" class="btn btn-outline">Pause</button>
+                <button id="flappy-reset" class="btn btn-outline">Reset</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="game-tetris" class="game-panel" data-loaded="false">
+            <h3>Tetris — Klasik (dengan Hold)</h3>
+            <div class="game-row" style="position: relative">
+              <div style="position: relative; text-align: center">
+                <canvas
+                  id="tetris-game"
+                  width="288"
+                  height="576"
+                  aria-label="Tetris game"
+                ></canvas>
+                <div
+                  id="tetris-overlay"
+                  style="
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(10, 25, 47, 0.7);
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    backdrop-filter: blur(4px);
+                  "
+                ></div>
+              </div>
+              <div class="tetris-side game-controls">
+                <div
+                  class="game-stats"
+                  style="
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: space-around;
+                    width: 100%;
+                  "
+                >
+                  <div>
+                    <strong>Skor:</strong> <span id="tetris-score">0</span>
+                  </div>
+                  <div>
+                    <strong>Baris:</strong> <span id="tetris-lines">0</span>
+                  </div>
+                  <div>
+                    <strong>Level:</strong> <span id="tetris-level">1</span>
+                  </div>
+                </div>
+                <div class="flex-buttons">
+                  <button id="tetris-start" class="btn">Start</button>
+                  <button id="tetris-pause" class="btn btn-outline">
+                    Pause
+                  </button>
+                </div>
+                <div
+                  class="hold-and-next-container"
+                  style="
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    align-self: center;
+                  "
+                >
+                  <div class="hold-block-container" style="text-align: center">
+                    <p class="small-text">Hold (C)</p>
+                    <canvas
+                      id="tetris-hold"
+                      class="hold-canvas"
+                      width="80"
+                      height="80"
+                    ></canvas>
+                  </div>
+                  <div class="next-block-container" style="text-align: center">
+                    <p class="small-text">Berikutnya</p>
+                    <canvas
+                      id="tetris-next"
+                      class="next-canvas"
+                      width="80"
+                      height="80"
+                    ></canvas>
+                  </div>
+                </div>
+                <p
+                  class="small-text"
+                  style="text-align: center; margin-top: 1rem"
+                >
+                  Kontrol: &larr; &rarr; geser, &uarr; rotasi, &darr; soft drop,
+                  Spasi hard drop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container fade-in">
+        <h2><span class="section-num">04.</span> Kontak</h2>
+        <div class="contact-card">
+          <h3>Mari Terhubung!</h3>
+          <p>
+            Saya selalu terbuka untuk mendiskusikan proyek baru, ide kreatif,
+            atau peluang untuk menjadi bagian dari visi Anda. Jangan ragu untuk
+            mengirim saya pesan.
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:rijaleka17@gmail.com">rijaleka17@gmail.com</a>
+          </p>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="cname" placeholder="Nama" required />
+              <input type="email" id="cemail" placeholder="Email" required />
+            </div>
+            <textarea
+              id="cmessage"
+              placeholder="Pesan Anda..."
+              required
+            ></textarea>
+            <div class="form-actions">
+              <button type="submit" class="btn">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://github.com/RijalEka"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-rijal-eka-farizky/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/ekafarizky/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </div>
+        <p>Didesain & Dibangun oleh Muhammad Rijal Eka Farizky</p>
+      </div>
+    </footer>
+
+    <script src="js/snake.js"></script>
+    <script src="js/flappy.js"></script>
+    <script src="js/tetris.js"></script>
+    <script src="js/main.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </body>
+</html>
